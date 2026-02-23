@@ -8,8 +8,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api") // Všechny cesty v tomto kontroleru budou začínat na /api
-public class TestController {
+@RequestMapping("/api")
+
+class TestController {
 
     @Autowired
     private UserRepository userRepository;
